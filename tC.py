@@ -29,7 +29,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 
 
-path = 'C:/Users/emir/OneDrive/Masaüstü/Telco-Customer-Churn.csv'
+path = 'Telco-Customer-Churn.csv'
 df = pd.read_csv(path)
 
 df.head()
